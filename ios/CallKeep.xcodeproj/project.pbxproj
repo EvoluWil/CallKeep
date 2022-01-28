@@ -46,6 +46,7 @@
 		52F1DDBF0AFBCBEA42AC3CA2 /* Pods-CallKeep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallKeep.debug.xcconfig"; path = "Target Support Files/Pods-CallKeep/Pods-CallKeep.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CallKeep/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B75B8A1F0D840519744D6DE /* libPods-CallKeep-CallKeepTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CallKeep-CallKeepTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE50A27427A46711002EAF14 /* CallKeepRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = CallKeepRelease.entitlements; path = CallKeep/CallKeepRelease.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FE846687DB5B09901B693C0B /* Pods-CallKeep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallKeep.release.xcconfig"; path = "Target Support Files/Pods-CallKeep/Pods-CallKeep.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,6 +93,7 @@
 		13B07FAE1A68108700A75B9A /* CallKeep */ = {
 			isa = PBXGroup;
 			children = (
+				BE50A27427A46711002EAF14 /* CallKeepRelease.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -551,7 +553,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efone;
 				PRODUCT_NAME = CallKeep;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -566,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = CallKeep/CallKeepRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -621,7 +624,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efone;
 				PRODUCT_NAME = CallKeep;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

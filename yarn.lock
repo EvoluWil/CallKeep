@@ -5308,6 +5308,11 @@ react-native-codegen@^0.0.7:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-permissions@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-3.2.0.tgz#2199a49e96bac633016955d36142032d747d0d3e"
+  integrity sha512-UPXxf2twjYL9vPI4HP2kT15AOTY489MhsNuyAgp+wJM2IRkkSVW6rO3k4WuSRL9ZmPhwkWb9bYjf8EEwRzZcXg==
+
 react-native-safe-area-context@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/react-native-safe-area-context/-/react-native-safe-area-context-3.3.2.tgz"
@@ -5320,6 +5325,11 @@ react-native-screens@^3.10.1:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-voip-push-notification@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-voip-push-notification/-/react-native-voip-push-notification-3.3.0.tgz#a26ddff49b208be9bd33cef911949153cb5da20c"
+  integrity sha512-A19jiwU1M/3UReUkfC68X2bW4c3mu27kuX2Kn/a1Z6clj0hVVLYi4Vk5zAboamaKiiLTXN7rdyFshkTIhD3u9g==
 
 react-native@0.66.4:
   version "0.66.4"
